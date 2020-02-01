@@ -25,11 +25,6 @@ function addListAfterKeypress(event){
     }
 }
 
-function deleteListAfterClick(){
-    var list = document.querySelector("li");
-    list.parentNode.removeChild(list);
-}
-
 function removeParent(evt){
 	evt.target.parentNode.remove();
 }
